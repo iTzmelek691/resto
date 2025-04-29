@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
         <title>Restaurant </title>
         <link rel="stylesheet" href="style.css"></head>
+
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
         
-            <div class="container">
-              <a class="navbar-brand" href="#">Restaurant</a>
-            
-                <ul class="navbar-nav">
-                  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-<section style="height: 90vh; background: url('s7an\ tounsi.jpg') center center / cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center;">
+    
+<section style="height: 90vh; background: url('ton.png') center center / cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center;">
     <div>
       <h1 style="color: white; font-size: 3rem;">Marhbee bikk</h1>
       <a href="#menu" style="margin-top: 20px; display: inline-block; padding: 10px 20px; background-color: #0d6efd; color: white; text-decoration: none; border-radius: 5px;">check Menu</a>
@@ -28,32 +50,53 @@
 
       <h2>Our Menu:</h2>
     </div>
-      <div style="background: white; width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <h4>Mosli djej:</h4>
-        <p><strong>Prix:12DT</strong></p>
-        <img src="mosli.jpg" alt="Dish 1" style="width: 100%; height: 200px; object-fit: cover;">
-        <div style="padding: 20px;">
-        
+    <div class="container"
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="mosl.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">mosli</h5>
+              <p class="card-text"><Prix:12DT></Prix:12DT></p>
+              <a href="#" class="btn btn-primary">Préparez</a>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="container"
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="kos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">kosksi</h5>
+              <p class="card-text"><Prix:12DT></Prix:12DT></p>
+              <a href="#" class="btn btn-primary">Préparez</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   
-      <div style="background: white; width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <h4>Kosksi:</h4>
-        <p><strong>Prix:14DT</strong></p>
-        <img src="kosksi.jpg" alt="Dish 2" style="width: 100%; height: 200px; object-fit: cover;">
-
-        <div style="padding: 20px;">
+    <div class="container"
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <img src="poisson.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">poisson</h5>
+              <p class="card-text"><Prix:12DT></Prix:12DT></p>
+              <a href="#" class="btn btn-primary">Préparez</a>
+            </div>
+          </div>
         </div>
       </div>
-  
-      <div style="background: white; width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <h4>Poisson:</h4>
-        <p><strong>Prix:10DT</strong></p>
-        <img src="poisson.jpg" alt="Dish 3" style="width: 100%; height: 200px; object-fit: cover;">
-        <div style="padding: 20px;">
-        
-        </div>
-      </div>
+    </div>
   
     </div>
   </section>
@@ -67,22 +110,30 @@
     </div>
   </section>
 </ul>
-<h2>Contact</h2>
-<dt>if you'd like to reach out our Restaurant, feel free to send a message using the from below:</dt>
-<form action="#" method="post">
-    <label for="name">Name:</label><br />
-    <input type="text" id="name" name="name" required><br /><br />
-    <label for="email" >email:</label></br >
-    <input type="email" id="email" name="email" required><br /><br/>
- 
-    <div class="card" style="width: 18rem;">
-       
-        <div class="card-body">
-        
-          <p class="card-text">this is me.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-</body>
+<div class="container mt-5 mb-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form class="p-4 shadow rounded bg-light" style="max-width: 600px; margin: auto;">
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
 
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+  </form>
+</div>
+
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      </div>
+    </body>
 </html>
